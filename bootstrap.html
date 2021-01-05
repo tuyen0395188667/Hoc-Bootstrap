@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Bootstrap 3 Navigation</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="example">
+        <div id="header">
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <!-- navbar-heaer -->
+                        <div class="navbar-header">
+                            <a href="#" class="navbar-brand"
+                                style="padding-top: 10px; padding-left: 15px; display: inline-block; font-size: 30px;">
+                                <span class="glyphicon glyphicon-home"></span> </a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- /navbar-heaer -->
+
+                        <!-- nav collapse -->
+                        <div class="navbar-collapse collapse" id="menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="">Trang Chủ</a></li>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Tin tức</a></li>
+                                <li><a href="">Thương hiệu</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                            </ul>
+
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="" data-toggle="dropdown">Tài Khoản <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Thông tin</a></li>
+                                        <li><a href="">Đổi mật khẩu</a></li>
+                                        <div class="divider"></div>
+                                        <li><a href="">Thông tin</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                    <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Thông tin</a></li>
+                                        <li><a href="">Đổi mật khẩu</a></li>
+                                        <div class="divider"></div>
+                                        <li><a href="">Thoát</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /navbar-collapse -->
+                    </div>
+                </div>
+            </nav>
+            <!-- /navigation -->
+
+            <!-- page content -->
+            <div class="container">
+                <div class="row">
+                    <div class="jumbotron">
+                        <h1>Khóa học bootstrap 3</h1>
+                        <p>Bootstrap là một thư viện CSS và JS được sử dụng rộng rãi nhất hiện nay vì tính nhanh, đẹp và
+                            chính xác của nó. Khi làm việc với bootstrap thì ban phải có nền tảng CSS và javascript thì
+                            mới mới có thể làm tốt được.
+                        </p>
+                        <p>
+                            <a href="https://freetuts.net" target="_blank" class="btn btn-primary btn-lg">Học Ngay</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Freetuts.net - Học lập trình online miễn phí</h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <!-- Project One -->
+                <div class="row">
+                    <div class="col-md-7">
+                        <a href="#">
+                            <img class="img-responsive" src="1.png" alt="" width="700px" height="300px">
+                        </a>
+                    </div>
+                    <div class="col-md-5" style="padding: 0px;">
+                        <div class="page-header clearfix" style="margin: 0px; margin-bottom: 10px;">
+                            <div class="col-md-3" style="padding: 0px;">
+                                <a href=""><img src="2.png" alt=""></a>
+                            </div>
+                            <div class="col-md-9" style="padding: 0px;" >
+                                <a href=""> <p class="" style="color: black;">Freetuts.net - Học lập trình online miễn phí</p> </a>
+                            </div>
+                        </div>
+                        <div class="page-header clearfix" style="margin: 0px;">
+                            <div class="col-md-3" style="padding: 0px;">
+                                <a href=""><img src="2.png" alt=""></a>
+                            </div>
+                            <div class="col-md-9" style="padding: 0px;" >
+                                <a href=""> <p>Freetuts.net - Học lập trình online miễn phí</p> </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <!-- Project Two -->
+                <div class="row">
+                    <div class="col-md-7">
+                        <a href="#">
+                            <img class="img-responsive" src="1.png" alt="" width="700px" height="300px">
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Bài học 1</h3>
+                        <h4>Navigation trong bootstrap 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem
+                            expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni
+                            pariatur quos perspiciatis atque eveniet unde.</p>
+                        <a class="btn btn-primary" href="#">Xem Bài <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <!-- Project Three -->
+                <div class="row">
+                    <div class="col-md-7" >
+                        <a href="#">
+                            <img class="img-responsive" src="1.png" alt="" width="700px" height="300px">
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Bài học 1</h3>
+                        <h4>Navigation trong bootstrap 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem
+                            expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni
+                            pariatur quos perspiciatis atque eveniet unde.</p>
+                        <a class="btn btn-primary" href="#">Xem Bài <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <!-- Project Four -->
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <a href="#">
+                            <img class="img-responsive" src="1.png" alt="" width="700px" height="300px">
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Bài học 1</h3>
+                        <h4>Navigation trong bootstrap 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem
+                            expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni
+                            pariatur quos perspiciatis atque eveniet unde.</p>
+                        <a class="btn btn-primary" href="#">Xem Bài <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <!-- Project Five -->
+                <div class="row">
+                    <div class="col-md-7">
+                        <a href="">
+                            <img class="img-responsive" src="1.png" alt="" width="700px" height="300px">
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Bài học 1</h3>
+                        <h4>Navigation trong bootstrap 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem
+                            expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni
+                            pariatur quos perspiciatis atque eveniet unde.</p>
+                        <a class="btn btn-primary" href="#">Xem Bài <span
+                                class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <div class="row">
+                    <div class="jumbotron">
+                        <h1>Khóa học bootstrap 3</h1>
+                        <p>Bootstrap là một thư viện CSS và JS được sử dụng rộng rãi nhất hiện nay vì tính nhanh, đẹp và
+                            chính xác của nó. Khi làm việc với bootstrap thì ban phải có nền tảng CSS và javascript thì
+                            mới mới có thể làm tốt được.</p>
+                        <p><a href="https://freetuts.net" target="_blank" class="btn btn-primary btn-lg">Học Ngay</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <ul class="pagination">
+                            <li>
+                                <a href="">&laquo;</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li>
+                                <a href="#">&raquo;</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <!-- /.row -->
+            </div>
+            <div class="container">
+                <!-- Footer -->
+                <footer>
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <p>Layout Blog - Freetuts.net</p>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </footer>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
